@@ -137,7 +137,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
 <!-- Syanne's Profile -->  
 <a href="https://github.com/oJordany/estanteVirtual"><img src="https://user-images.githubusercontent.com/84668196/178507721-c9f1533c-65ac-4f4e-9d8e-a1a343645571.png" width="180px" height="180px" align="left"></a> 
-<h1>Syanne Karoline Moreira</h1>
+<h1>Syanne Karoline Moreira Tavares</h1>
 <strong>Computer Science Student | Developer | intern at PROEX-UFPA</strong>
 <br/><br/>
 <a href="https://instagram.com/syanne_karoline/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
