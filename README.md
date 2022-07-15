@@ -55,9 +55,28 @@
 
 <h2><a name="usage">👨‍💻 Usage</a></h2>
 <ul type="none">
-  <li><h3><a name="myBooks">&#x1F4DA My Books</a></h3></li>
-  <li><h3><a name="addANewBook">&#x2795 Add a New Book</a></h3></li>
   <li><h3><a name="searchABook">&#x1F50E Search a Book</a></h3></li>
+  
+
+https://user-images.githubusercontent.com/84668196/179223418-291d9552-b37e-4a55-a1e2-d295d4148071.mp4
+
+
+  <li><h3><a name="addANewBook">&#x2795 Add a New Book</a></h3></li>
+  
+
+https://user-images.githubusercontent.com/84668196/179223528-077ccaad-85f3-42ea-b48c-c918275a9814.mp4
+
+
+  <li><h3><a name="myBooks">&#x1F4DA My Books</a></h3></li>
+  
+
+https://user-images.githubusercontent.com/84668196/179223603-1abf0929-1084-4234-845a-004acc159176.mp4
+
+
+
+https://user-images.githubusercontent.com/84668196/179223641-556eddc7-88ec-4e33-a423-396ddb70bb72.mp4
+
+
 </ul>
 
 <h1></h1>
