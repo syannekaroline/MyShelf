@@ -29,8 +29,23 @@ class Aplicattion():
 
     def go_to_CD_window(self):
         from interface.screens.ConfirmDeleteWindow import ConfirmDeleteWindow
-        self.ConfirmDeleteWindow = ConfirmDeleteWindow(self.Books_list)
-        self.ConfirmDeleteWindow.generate_ConfirmDelete_window()
+        if self.Books_list.selection() != ():
+            try: 
+                self.labelError.destroy()
+            except:
+                pass
+            self.ConfirmDeleteWindow = ConfirmDeleteWindow(self.Books_list)
+            self.ConfirmDeleteWindow.generate_ConfirmDelete_window()
+        else:
+            try: 
+                self.labelError.destroy()
+            except:
+                pass
+            varError = StringVar()
+            self.labelError = Label( self.mybookswindow, textvariable=varError, relief=FLAT, foreground="red", background="#2C0A59", font=("Georgia 14 bold"))
+            varError.set(f"Error: select a book")
+            self.labelError.pack()  
+
 
     def interface(self):
         self.mybookswindow.geometry("1300x700")
@@ -318,6 +333,10 @@ class Aplicattion():
 
     def switch_to_read(self):
         from controller.database import change_status
+        try: 
+            self.labelError.destroy()
+        except:
+            pass
         books = self.Books_list.selection()
         for book in books:
             isbn = self.Books_list.item(book)["text"]

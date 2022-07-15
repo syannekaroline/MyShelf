@@ -1,5 +1,6 @@
 from distutils.log import info
 from email.mime import image
+from hashlib import new
 from itertools import count
 from pathlib import Path
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, Scrollbar, font, Label, ttk, LEFT, BOTTOM, RIGHT, TOP, X, Y, StringVar, FLAT
@@ -68,7 +69,7 @@ class SearchWindow:
             self.novaHome.generate_home_window()
 
     def open_url(self, url):
-        webbrowser.open_new(url)
+        webbrowser.open(url, new=0)
         lambda url=url: self.open_url(url)
 
     async def renders_infos_book(self, books):
